@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"></meta>
+<head>
+	<title>Calcuador.net</title>
+	<script type="text/javascript" src="./paginainicio.js"></script>
+	<link rel="stylesheet" type="text/css" href="paginainicio.css">
+
+</head>
+
+	<body <BODY bgcolor="BC4EC8">
+
+		<center><h1 style= "color:7D4EC8">CALCULADORA</h1></center>
+
+		<img class="num1" src="./imagenes/1.png" width="120" height="120" onclick="enviarNumero('1')"/>
+		<img class="num2" src="./imagenes/2.png" width="120" height="120" onclick="enviarNumero('2')"/>
+		<img class="num3" src="./imagenes/3.png" width="120" height="120" onclick="enviarNumero('3')"/> 
+		<img class="num4" src="./imagenes/4.png" width="120" height="120" onclick="enviarNumero('4')"/> 
+		<img class="num5" src="./imagenes/5.png" width="120" height="120" onclick="enviarNumero('5')"/>
+		<img class="num6" src="./imagenes/6.png" width="120" height="120" onclick="enviarNumero('6')"/> 
+		<img class="num7" src="./imagenes/7.png" width="120" height="120" onclick="enviarNumero('7')"/>
+		<img class="num8" src="./imagenes/8.png" width="120" height="120" onclick="enviarNumero('8')"/> 
+		<img class="num9" src="./imagenes/9.png" width="120" height="120" onclick="enviarNumero('9')"/>
+		<img class="num0" src="./imagenes/0.png" width="120" height="120" onclick="enviarNumero('0')"/>  
+
+
+		<img class="suma"    src="./imagenes/suma.png"      width="120" height="120" onclick="enviarSigno('+')"/> 
+		<img class="resta"   src="./imagenes/resta.png"    width="120" height="120" onclick="enviarSigno('-')"/>
+		<img class="multip"     src="./imagenes/multip.png"      width="120" height="120" onclick="enviarSigno('*')"/> 
+		<img class="divicion" src="./imagenes/divicion.png"  width="120" height="120" onclick="enviarSigno('/')"/> 
+		<img class="borrar"    src="./imagenes/borrar.png" width="120" height="120" onclick="borrar()"/> 
+		<img class="igual"   src="./imagenes/igual.png"    width="120" height="120" onclick="igual()"/>
+		
+		<tr>
+	          <td style="position: absolute;"><div id="total"></div></td>
+	          <td></td>
+	          <td></td>
+	     </tr>
+</html>

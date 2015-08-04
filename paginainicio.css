@@ -1,0 +1,91 @@
+.num1{ position:absolute;
+		top:50px;
+		left:100px;}
+
+
+.num2{ position:absolute;
+		top:50px;
+		left:250px;}
+
+
+.num3{ position:absolute;
+		top:50px;
+		left:400px;}
+
+
+.num4{ position:absolute;
+		top:200px;
+		left:100px;}
+
+
+.num5{ position:absolute;
+		top:200px;
+		left:250px;}
+
+
+.num6{ position:absolute;
+		top:200px;
+		left:400px;}
+
+
+.num7{ position:absolute;
+		top:350px;
+		left:100px;}
+
+
+.num8{ position:absolute;
+		top:350px;
+		left:250px;}
+
+
+.num9{ position:absolute;
+		top:350px;
+		left:400px;}
+
+
+.num0{ position:absolute;
+		top:500px;
+		left:250px;}
+
+
+
+
+
+
+.suma{ position:absolute;
+		top:240px;
+		left:700px;}
+
+
+.resta{ position:absolute;
+		top:240px;
+		left:900px;}
+
+
+.multip{ position:absolute;
+		top:365px;
+		left:700px;}
+
+
+.divicion{ position:absolute;
+		top:365px;
+		left:900px;}
+
+
+.borrar{ position:absolute;
+		top:500px;
+		left:400px;}
+
+
+.igual{ position:absolute;
+		top:500px;
+		left:100px;
+	}
+
+
+#total{
+	font-size: 150px
+	left: 100px;
+	margin-left: 900px
+}
+
